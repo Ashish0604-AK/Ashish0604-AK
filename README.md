@@ -9,7 +9,7 @@ I'm a student developer specializing in Artificial Intelligence and Machine Lear
 - Data Science & Machine Learning
 
 ### 🚀 Projects
-- **Deforestation Detection using Satellite Imagery**: Leveraging ML algorithms to analyze satellite images for environmental monitoring.
+- **Deforestation Analysis using Satellite Imagery**: Leveraging ML algorithms to analyze satellite images for environmental monitoring.
 - More exciting projects underway!
 
 ### 🎯 Goals
