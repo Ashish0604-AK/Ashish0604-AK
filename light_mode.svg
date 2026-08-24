@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+    <style>
+
+         @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .cursor {
+            fill: #16ed3a;
+            animation: blink 1s infinite;
+        }
+        @keyframes pulse {
+            0% { fill: #3fb950; opacity: 1; }
+            50% { fill: #2ea043; opacity: 0.3; }
+            100% { fill: #3fb950; opacity: 1; }
+        }
+
+        .online-dot {
+            fill: #3fb950;
+            animation: pulse 2s infinite ease-in-out;
+        }
+
+            @font-face {
+            font-family: 'ConsolasFallback';
+            src: local('Consolas'), local('Consolas Bold');
+            font-display: swap;
+            -webkit-size-adjust: 109%;
+            size-adjust: 109%;
+        }
+
+        .bg { fill: #ffffff; rx: 6px; }
+        .text { font-family: 'ConsolasFallback', Consolas, monospace; font-size: 11px; white-space: pre; }
+        .ascii { fill: #14f01f; font-weight: bold; }
+        .user_ascii { fill: #14f01f; }
+        .label { fill: #ff7b72; font-weight: bold; }
+        .sublabel { fill: #05f812; font-weight: bold; }
+        .dots { fill: #484f58; }
+        .value { fill: #080809; }
+        .orange { fill: #ffa657; }
+        .green { fill: #06e919; }
+        .red { fill: #ec2e20; }
+    </style>
+    
+    <rect class="bg" width="100%" height="100%"/>
+
+    
+    
+    <text class="text" x="20" y="25">
+        <!-- LEFT COLUMN: ASCII ART PICTURE -->
+        <tspan class="ascii" x="20" dy="0">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%**##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%#**###%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*++#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%#++*#++*+**##%%%%%%%%%%%%%%%%%%%%%%%@#=----=#%@%%%%%%%%%%%%%%%%%%%%%%%%%%%@%#*+##%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%**#***++*+*+++*##%%%%%%%%%%%%%%%%%%#+=---=%%%@%%%%%%%%%%%%%%%%%%%%%####**++*#*#%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%@#+++***++++*+===+#++*%%%%%%%%%%%%%%#+**@%%%**@%%%%%%%%%%%%%%%%%*+***+++*##+=+#@%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%###*====--====+**+++***%%%%%%%%@%#@#@@%**%%%%%%%%%%%%%#%**+=**+*+---=*+*+*%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%#*+++===-----++======-=*##%%%%%%@%@@@@#+%@%%%%%%#+*++-==+*#*++++*+====-+%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%+=+*==+=--==++=-=--==-+###%%%%%%%%%%#@%%%%#**==+--**#*=-=*#++++*+=*#@%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%#+=++++===--:-=-=-----=++*#@@@%%#%%@%%%%#*=+===+##*+=++=+*++=-==*#%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%#----=+=-=-----++-:-*=++++*+=+*%%@%%%#*====#%#++===+=*+------=#%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%*=====*+==+:==-==+=+#######=-#@%%%%*=+*#*+++====-++--=++#%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%#**+=====+===-==+#*=--+*#%*#%%#****##*+==-=-=+++++===+#%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%*++*++-=+=++*@@@#=--+%%%%%##--=**+==-==+---==---=#%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#**#=-==+#%@@%#==+*%%@*==+**+++--==-+-*=--*%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*-*-*##%%*+##*+%%%%%*::=#%#++=-==+--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*%%%**#%%@@@%#%%+-=#@**+++=-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#=*@%%##%%@@%%#=-+#**%%*+*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*-*%%@%%%+=-=:-*+:=%%%#%#*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+-#%%%%%#+*=-:+%#-=+%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=:%%%@%%*-*+-:-++:-*%%%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=:-+#@%%*::=+-::-+==+#%%%%%#**-*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=-#+%%%%#----+=-++==*%@%*+%%%%#+-*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-:%#@%%%%+:-*+:===-=*%%+--=#@%%%##=*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%@%+-=#@%%%%%%+-+%%=:--=#%=::-==%@%%%%%**-#@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%*##=#%%%%%%%@%#*+%%%#+:::+*%%*=#@@%%%%%@#*==%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%#*++*%%%%%%%%%%*%%%%%%@%%%%#=--:+%@%%%%%%%%-=***@%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%#+*%%%%%%%%%%%%*%%%%%%%%#=-:::--*@%%%%%%%%%%#=*+#%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%#%@+::::-:-#@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%*::::::=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%%%%%@-:::::-*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*%%%%%*-:::::=%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*#%%@%%=::::-*@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%#@##%*:::::=%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*-:*=::::-+%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+::+=::::-+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@#+-:+*====+*@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%**@%#+=+*@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%%@%*-:#*#@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%**%%%%%+-=#*@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*%%%%%#+=*+@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+*%@%#%*-#=@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*%%%#%#+%=@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%@@%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@%#%%#@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%#*@#*#%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*+%#+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@#-:*-%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@*+**:%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*%%==%#%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%%*+#%@%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%-*%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+        <tspan class="ascii" x="20" dy="15">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+
+        <!-- RIGHT COLUMN: EDITABLE DETAILS AND DYNAMIC STATS -->
+        <!-- EDIT YOUR USERNAME HERE -->
+        <!-- 1. USERNAME IN MIDDLE -->
+        <tspan class="dots" x="700" y="25">------------------ </tspan><tspan class="label">Ashish0604-AK</tspan><tspan class="dots"> ------------------</tspan>
+
+        <!-- 2. ASH06 ASCII TEXT (Using fixed 'y' step increments of 12px) -->
+        <tspan class="user_ascii" x="700" y="45"> █████╗ ███████╗██╗  ██╗    ██████╗ ██████╗ </tspan>
+        <tspan class="user_ascii" x="700" y="57">██╔══██╗██╔════╝██║  ██║   ██╔═████╗██╔════╝ </tspan>
+        <tspan class="user_ascii" x="700" y="69">███████║███████╗███████║   ██║██╔██║███████╗ </tspan>
+        <tspan class="user_ascii" x="700" y="81">██╔══██║╚════██║██╔══██║   ████╔╝██║██╔═══██╗</tspan>
+        <tspan class="user_ascii" x="700" y="93">██║  ██║███████║██║  ██║   ╚██████╔╝╚██████╔╝</tspan>
+        <tspan class="user_ascii" x="700" y="105">╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ </tspan>
+
+        <!-- 3. ALL DETAILS -->
+        <tspan class="label" x="700" y="130">. OS:</tspan><tspan class="dots"> ................</tspan><tspan class="value">Windows 11</tspan>
+        <tspan class="label" x="700" y="150">. Uptime:</tspan><tspan id="age_data_dots" class="dots"> ........... </tspan><tspan id="age_data" class="value">22y 4m 19d</tspan>
+        <tspan class="label" x="700" y="170">. Status/Host:</tspan><tspan class="dots"> ..... </tspan><tspan class="online-dot">● </tspan><tspan class="value">Online / Developer</tspan>
+        
+        <!-- IDE (WRAPPED TO PREVENT OVERFLOW) -->
+        <tspan class="label" x="700" y="190">. IDE:</tspan><tspan class="dots"> .............. </tspan><tspan class="value">VSCode, Spring Tools,</tspan>
+        <tspan class="value" x="845" y="208">Intellij IDEA, Jupyter </tspan>
+
+        <!-- TOOLS (WRAPPED TO PREVENT OVERFLOW) -->
+        <tspan class="label" x="700" y="228">. Tools / AI :</tspan><tspan class="dots"> ...... </tspan><tspan class="value">Git, GitHub, Docker, Postman,</tspan>
+        <tspan class="value" x="845" y="246">ChatGPT, Claude, Gemini</tspan>
+
+
+        <!-- SKILLS / LANGUAGES SECTION -->
+        <tspan class="label" x="700" y="270">. Languages.Prog:</tspan><tspan class="dots"> ... </tspan><tspan class="value">Java, JavaScript, C++, Python</tspan>
+        <tspan class="label" x="700" y="290">. Languages.Web:</tspan><tspan class="dots"> . .. </tspan><tspan class="value">HTML, CSS, SQL, TypeScript, Node.js</tspan>
+        <tspan class="label" x="700" y="310">. Frameworks/Tech:</tspan><tspan class="dots"> .. </tspan><tspan class="value">Angular, React, Spring Boot, FastAPI</tspan>
+        <tspan class="label" x="700" y="330">. Languages.Real:</tspan><tspan class="dots"> ... </tspan><tspan class="value">English, Hindi</tspan>
+        
+        <!-- HOBBIES SECTION (WRAPPED FOR LENGTH & SPECIAL CHARS FIXED) -->
+        <tspan class="label" x="700" y="360">. Hobbies:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">Fitness Freak, Exploring new Tech,</tspan>
+        <tspan class="value" x="845" y="380">Places, People, Foodie</tspan>
+        
+        <tspan class="label" x="700" y="400">. Current.Process:</tspan><tspan class="dots"> .. </tspan><tspan class="value">Learning =&gt; Building =&gt;</tspan>
+        <tspan class="value" x="845" y="420">Testing =&gt; Deploying</tspan><tspan class="cursor">█</tspan>
+        
+        <tspan class="label" x="700" y="440">. Current.Mission:</tspan><tspan class="dots"> .. </tspan><tspan class="value">Become dangerously good</tspan>
+        <tspan class="value" x="845" y="460">at Everything</tspan>
+
+        <!-- CONTACT INFORMATION SECTION -->
+        <tspan class="sublabel" x="700" y="490">------------------- Contact ---------------------------------</tspan>
+        <tspan class="label" x="700" y="510">. Email:</tspan><tspan class="dots"> ............ </tspan><tspan class="value">ashikmr0604@gmail.com</tspan>
+        <tspan class="label" x="700" y="530">. LinkedIn:</tspan><tspan class="dots"> ......... </tspan><tspan class="value">in/ashish-kumar-08902b2a9</tspan>
+        <tspan class="label" x="700" y="550">. Discord:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">Will drop Later !!!</tspan>
+
+        <!-- AUTOMATIC GITHUB STATS -->
+        <tspan class="sublabel" x="700" y="580">------------------ GitHub Stats ---------------------------------</tspan>
+        <tspan class="label" x="700" y="600">. Repos:</tspan><tspan id="repo_data_dots" class="dots"> ..... </tspan><tspan id="repo_data" class="value">4</tspan> <tspan class="dots">      |</tspan> <tspan class="orange">Contrib:</tspan> <tspan id="contrib_data" class="orange">24</tspan>
+        <tspan class="label" x="700" y="620">. Stars:</tspan><tspan id="star_data_dots" class="dots"> ............. </tspan><tspan id="star_data" class="value">0</tspan> <tspan class="dots">      |</tspan> <tspan class="label">Followers:</tspan> <tspan id="follower_data" class="value">2</tspan>
+        <tspan class="label" x="700" y="640">. Commits:</tspan><tspan id="commit_data_dots" class="dots"> ................... </tspan><tspan id="commit_data" class="value">103</tspan>
+        <tspan class="label" x="700" y="660">. Lines of Code:</tspan><tspan id="loc_data_dots" class="dots"> </tspan><tspan id="loc_data" class="value">-222,997</tspan> (<tspan id="loc_add" class="green">73,876</tspan>, <tspan id="loc_del" class="red">296,873</tspan>)
+    </text>
+</svg>
