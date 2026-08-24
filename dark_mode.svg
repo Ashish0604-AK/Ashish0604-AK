@@ -140,8 +140,8 @@
         <tspan class="label" x="700" y="330">. Languages.Real:</tspan><tspan class="dots"> ... </tspan><tspan class="value">English, Hindi</tspan>
         
         <!-- HOBBIES SECTION (WRAPPED FOR LENGTH & SPECIAL CHARS FIXED) -->
-        <tspan class="label" x="700" y="360">. Hobbies:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">Fitness Freak, Exploring new Tech,</tspan>
-        <tspan class="value" x="845" y="380">Places, People, Foodie</tspan>
+        <tspan class="label" x="700" y="360">. Hobbies:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">Fitness-fueled. Curiosity-driven</tspan>
+        <tspan class="value" x="750" y="380">A lone wolf by nature, an explorer by choice. 🐺</tspan>
         
         <tspan class="label" x="700" y="400">. Current.Process:</tspan><tspan class="dots"> .. </tspan><tspan class="value">Learning =&gt; Building =&gt;</tspan>
         <tspan class="value" x="845" y="420">Testing =&gt; Deploying</tspan><tspan class="cursor">█</tspan>
