@@ -121,7 +121,7 @@
 
         <!-- 3. ALL DETAILS -->
         <tspan class="label" x="700" y="130">. OS:</tspan><tspan class="dots"> ................</tspan><tspan class="value">Windows 11</tspan>
-        <tspan class="label" x="700" y="150">. Uptime:</tspan><tspan id="age_data_dots" class="dots"> ........... </tspan><tspan id="age_data" class="value">22y 4m 19d</tspan>
+        <tspan class="label" x="700" y="150">. Uptime:</tspan><tspan id="age_data_dots" class="dots"> ........... </tspan><tspan id="age_data" class="value">22y 4m 23d</tspan>
         <tspan class="label" x="700" y="170">. Status/Host:</tspan><tspan class="dots"> ..... </tspan><tspan class="online-dot">● </tspan><tspan class="value">Online / Developer</tspan>
         
         <!-- IDE (WRAPPED TO PREVENT OVERFLOW) -->
@@ -157,9 +157,9 @@
 
         <!-- AUTOMATIC GITHUB STATS -->
         <tspan class="sublabel" x="700" y="580">------------------ GitHub Stats ---------------------------------</tspan>
-        <tspan class="label" x="700" y="600">. Repos:</tspan><tspan id="repo_data_dots" class="dots"> ..... </tspan><tspan id="repo_data" class="value">4</tspan> <tspan class="dots">      |</tspan> <tspan class="orange">Contrib:</tspan> <tspan id="contrib_data" class="orange">24</tspan>
+        <tspan class="label" x="700" y="600">. Repos:</tspan><tspan id="repo_data_dots" class="dots"> ..... </tspan><tspan id="repo_data" class="value">7</tspan> <tspan class="dots">      |</tspan> <tspan class="orange">Contrib:</tspan> <tspan id="contrib_data" class="orange">36</tspan>
         <tspan class="label" x="700" y="620">. Stars:</tspan><tspan id="star_data_dots" class="dots"> ............. </tspan><tspan id="star_data" class="value">0</tspan> <tspan class="dots">      |</tspan> <tspan class="label">Followers:</tspan> <tspan id="follower_data" class="value">2</tspan>
-        <tspan class="label" x="700" y="640">. Commits:</tspan><tspan id="commit_data_dots" class="dots"> ................... </tspan><tspan id="commit_data" class="value">103</tspan>
-        <tspan class="label" x="700" y="660">. Lines of Code:</tspan><tspan id="loc_data_dots" class="dots"> </tspan><tspan id="loc_data" class="value">-222,997</tspan> (<tspan id="loc_add" class="green">73,876</tspan>, <tspan id="loc_del" class="red">296,873</tspan>)
+        <tspan class="label" x="700" y="640">. Commits:</tspan><tspan id="commit_data_dots" class="dots"> ................... </tspan><tspan id="commit_data" class="value">196</tspan>
+        <tspan class="label" x="700" y="660">. Lines of Code:</tspan><tspan id="loc_data_dots" class="dots"> </tspan><tspan id="loc_data" class="value">-197,968</tspan> (<tspan id="loc_add" class="green">100,559</tspan>, <tspan id="loc_del" class="red">298,527</tspan>)
     </text>
 </svg>
