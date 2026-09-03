@@ -120,7 +120,7 @@
 
         <!-- 3. ALL DETAILS -->
         <tspan class="label" x="700" y="130">. OS:</tspan><tspan class="dots"> ................</tspan><tspan class="value">Windows 11</tspan>
-        <tspan class="label" x="700" y="150">. Uptime:</tspan><tspan id="age_data_dots" class="dots"> ........... </tspan><tspan id="age_data" class="value">22y 4m 27d</tspan>
+        <tspan class="label" x="700" y="150">. Uptime:</tspan><tspan id="age_data_dots" class="dots"> ........... </tspan><tspan id="age_data" class="value">22y 4m 28d</tspan>
         <tspan class="label" x="700" y="170">. Status/Host:</tspan><tspan class="dots"> ..... </tspan><tspan class="online-dot">● </tspan><tspan class="value">Online / Developer</tspan>
         
         <!-- IDE (WRAPPED TO PREVENT OVERFLOW) -->
